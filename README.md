@@ -10,7 +10,7 @@ Algorithmic Problem Solving
 Prateek Kanaujia
 
 *University*  
-KLE Technological University, USA-31
+KLE Technological University, Hubli-31
 
 *Course Instructor*  
 Prakash Hegade
