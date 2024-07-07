@@ -13,7 +13,7 @@
 
 ## Introduction
 <p align="center">
-    <img src="Image/img1.webp" width="300" alt="HLD-Youtube">
+    <img src="Image/img1.webp" width="700" alt="HLD-Youtube">
 </p>
 
 hello world
