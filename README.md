@@ -31,7 +31,21 @@ In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift
 </div>
 
 ### Objectives
+<p>
 - Evaluate and classify Facebook features and technological framework.
 - Investigate critical data structures , Algorithms and system design strategies used by Facebook.
 - Create a resource that can be used for educational purposes to understand the intersection of data structures, algorithms, and real-world applications in a social media platform like Facebook.
 - Explore opportunities for algorithmic enhancement and optimization within Facebook's operational framework.
+</p>
+
+### Facebook's System Architecture
+#### The Data Model For Social Graph
+<div style="text-align: justify;">
+<p align="center">
+    <img src="Image/img2.webp" width="700" alt="HLD-Youtube">
+</p>
+<p>
+Facebook stores majority, if not all, of users’ data, such as profiles, friends, posts and comments, inside a single giant social graph. There are two elements inside a social graph, nodes and edges. A node represents an entity, such a user, a post, a comment and a location.
+An edge represents the relationships between the nodes.
+</p>
+</div>
