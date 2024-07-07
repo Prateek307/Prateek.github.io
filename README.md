@@ -7,7 +7,7 @@ Algorithmic Problem Solving
 23ECSE309
 
 *Name*  
-Prateek Kanaujia
+Prateek
 
 *University*  
 KLE Technological University, Hubli-31
