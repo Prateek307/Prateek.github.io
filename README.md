@@ -46,11 +46,23 @@ An edge represents the relationships between the nodes.
 <p align="center">
     <img src="Image/img2.webp" width="700" alt="HLD-Youtube">
 </p>
+<h3>The Database Design For the Social Graph</h3>
 <p>
 Facebook uses only two database tables to represent the social graph that captures the activities of its one billion users, object table and association table.
 Object table has a very simple schema. It has 3 columns. The id column stores the unique id of the object. otype stores the object type. Additionally, each object/node can have a list of key-value pairs. otype specifies the possible keys and value type. For instance, otype of User means there could be a key name with value type string. The list of key-value pairs are serialized and stored in the data column.
 </p>
 <p>
 The schema of the association table is similar. It has 4 columns. id1 and id2 represents the source and destination of the edge. atype is the edge type and data stores the optional list of key-value pairs associated with the edge.The edge from the post to the comment will result in the following row in the association table.
+</p>
+<h3>The Highly Scalable Backends that Serve the Social Graph</h3>
+<p align="center">
+    <img src="Image/img3.webp" width="700" alt="HLD-Youtube">
+</p>
+<p>
+In Facebook's backend system, two main components are crucial: TAO and the database. TAO serves as Facebook's distributed data store, fulfilling dual roles. First, it defines a data access API, providing interfaces for querying and modifying objects and associations. Application servers within Facebook interact with TAO rather than directly with the database. The API encompasses two main categories: object-related and association-related functionalities. Additionally, TAO operates as a write-through cache, actively caching objects and associations to minimize latency and alleviate the database system's workload.
+</p>
+<h3>Database</h3>
+<p>
+Facebook's approach to scaling its MySQL database involved two major modifications. Firstly, they implemented Database Sharding, partitioning objects and associations into logical shards distributed across database instances. TAO, their distributed data store, determines shard placement for new data and handles queries to the appropriate shard. Secondly, Facebook optimized storage efficiency by adopting the LSM (Log-Structured Merge) tree storage engine, specifically MyRocks DB. This replaced the traditional InnoDB engine's B+ trees, reducing storage requirements by 50% and enhancing database latency, particularly beneficial with the shift from HDD to Flash or SSD storage technologies.
 </p>
 </div>
