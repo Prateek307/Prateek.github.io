@@ -13,7 +13,7 @@
 
 ## Introduction
 <p align="center">
-  <img src="C:\APS2\Prateek.github.io\Image\img1.webp" width="300" alt="HLD-Youtube">
+    <img src="Image/img1.webp" width="300" alt="HLD-Youtube">
 </p>
 
 hello world
