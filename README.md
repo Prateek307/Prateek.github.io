@@ -74,7 +74,7 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Data Center Network Optimization](#optimize)
 - [Content Monitoring](#monitor)
 - [Data Saver](#data-saver)
-- [Tagging](#tag)
+- [Tag Verification](#tag)
 - [Managing Chats & Notifications](#chats-and-notify)
 - [Analytics and Metrics](#analyze-and-metrics)
 - [News Feed Sorting & Filtering](#news-filter)
