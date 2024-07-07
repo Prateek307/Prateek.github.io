@@ -38,12 +38,19 @@ In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift
 
 ### Facebook's System Architecture
 <div style="text-align: justify;">
-<h2 id="facebooks-system-architecture">The Data Model For Social Graph</h2>
+<h5 id="facebooks-system-architecture">The Data Model For Social Graph</h5>
 <p>
 Facebook stores majority, if not all, of users’ data, such as profiles, friends, posts and comments, inside a single giant social graph. There are two elements inside a social graph, nodes and edges. A node represents an entity, such a user, a post, a comment and a location.
 An edge represents the relationships between the nodes.
 </p>
 <p align="center">
     <img src="Image/img2.webp" width="700" alt="HLD-Youtube">
+</p>
+<p>
+Facebook uses only two database tables to represent the social graph that captures the activities of its one billion users, object table and association table.
+Object table has a very simple schema. It has 3 columns. The id column stores the unique id of the object. otype stores the object type. Additionally, each object/node can have a list of key-value pairs. otype specifies the possible keys and value type. For instance, otype of User means there could be a key name with value type string. The list of key-value pairs are serialized and stored in the data column.
+</p>
+<p>
+The schema of the association table is similar. It has 4 columns. id1 and id2 represents the source and destination of the edge. atype is the edge type and data stores the optional list of key-value pairs associated with the edge.The edge from the post to the comment will result in the following row in the association table
 </p>
 </div>
