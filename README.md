@@ -5,7 +5,7 @@
 **University:** KLE Technological University, Hubballi-31  
 **Portfolio domain:** Facebook  
 
-### Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Facebook's System Architecture](#architecture-of-the-facebook)
@@ -13,7 +13,7 @@
 
 ## Introduction
 <p align="center">
-  <img src="C:\APS2\Prateek.github.io\Image" width="300" alt="HLD-Youtube">
+  <img src="C:\APS2\Prateek.github.io\Image\img1.webp" width="300" alt="HLD-Youtube">
 </p>
 
 hello world
