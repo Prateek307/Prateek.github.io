@@ -29,3 +29,9 @@ Despite efforts to improve user controls, privacy remains a contentious issue fo
 In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift towards developing the metaverse—a virtual reality environment promising new interactive possibilities. Facebook/Meta Platforms has evolved from a university-based social network into a global powerhouse, reshaping communication, commerce, and societal interactions.
 </p>
 </div>
+
+### Objectives
+- Evaluate and classify Facebook features and technological framework.
+- Investigate critical data structures , Algorithms and system design strategies used by Facebook.
+- Create a resource that can be used for educational purposes to understand the intersection of data structures, algorithms, and real-world applications in a social media platform like Facebook.
+- Explore opportunities for algorithmic enhancement and optimization within Facebook's operational framework.
