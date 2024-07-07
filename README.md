@@ -1,5 +1,3 @@
-# A Comprehensive APS Portfolio
-
 *Course Name*  
 Algorithmic Problem Solving
 
