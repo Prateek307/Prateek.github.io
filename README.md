@@ -5,13 +5,13 @@
 **University:** KLE Technological University, Hubballi-31  
 **Portfolio domain:** Facebook  
 
-### Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Facebook's System Architecture](#facebooks-system-architecture)
 - [Business Use Cases](#business-use-cases)
 
-### Introduction
+## Introduction
 <p align="center">
     <img src="Image/img1.webp" width="700" alt="HLD-Youtube">
 </p>
@@ -30,13 +30,13 @@ In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift
 </p>
 </div>
 
-### Objectives
+## Objectives
 - Evaluate and classify Facebook features and technological framework.
 - Investigate critical data structures , Algorithms and system design strategies used by Facebook.
 - Create a resource that can be used for educational purposes to understand the intersection of data structures, algorithms, and real-world applications in a social media platform like Facebook.
 - Explore opportunities for algorithmic enhancement and optimization within Facebook's operational framework.
 
-### Facebook's System Architecture
+## Facebook's System Architecture
 <div style="text-align: justify;">
 <h3 id="facebooks-system-architecture">The Data Model For Social Graph</h3>
 <p>
