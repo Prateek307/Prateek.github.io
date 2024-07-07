@@ -31,12 +31,10 @@ In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift
 </div>
 
 ### Objectives
-<p>
 - Evaluate and classify Facebook features and technological framework.
 - Investigate critical data structures , Algorithms and system design strategies used by Facebook.
 - Create a resource that can be used for educational purposes to understand the intersection of data structures, algorithms, and real-world applications in a social media platform like Facebook.
 - Explore opportunities for algorithmic enhancement and optimization within Facebook's operational framework.
-</p>
 
 ### Facebook's System Architecture
 <div style="text-align: justify;">
