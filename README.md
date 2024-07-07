@@ -8,7 +8,7 @@
 ### Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
-- [Facebook's System Architecture](#architecture-of-the-facebook)
+- [Facebook's System Architecture](#Facebook's System Architecture)
 - [Business Use Cases](#business-use-cases)
 
 ### Introduction
@@ -41,11 +41,11 @@ In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift
 ### Facebook's System Architecture
 #### The Data Model For Social Graph
 <div style="text-align: justify;">
-<p align="center">
-    <img src="Image/img2.webp" width="700" alt="HLD-Youtube">
-</p>
 <p>
 Facebook stores majority, if not all, of users’ data, such as profiles, friends, posts and comments, inside a single giant social graph. There are two elements inside a social graph, nodes and edges. A node represents an entity, such a user, a post, a comment and a location.
 An edge represents the relationships between the nodes.
+</p>
+<p align="center">
+    <img src="Image/img2.webp" width="700" alt="HLD-Youtube">
 </p>
 </div>
