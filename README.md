@@ -66,3 +66,28 @@ In Facebook's backend system, two main components are crucial: TAO and the datab
 Facebook's approach to scaling its MySQL database involved two major modifications. Firstly, they implemented Database Sharding, partitioning objects and associations into logical shards distributed across database instances. TAO, their distributed data store, determines shard placement for new data and handles queries to the appropriate shard. Secondly, Facebook optimized storage efficiency by adopting the LSM (Log-Structured Merge) tree storage engine, specifically MyRocks DB. This replaced the traditional InnoDB engine's B+ trees, reducing storage requirements by 50% and enhancing database latency, particularly beneficial with the shift from HDD to Flash or SSD storage technologies.
 </p>
 </div>
+
+## Business Use Cases
+- [Sort Friend List](#friends)
+- [Database Modification](#db-modify)
+- [Friends Recommendation](#friend-recommend)
+- [Data Center Network Optimization](#optimize)
+- [Content Monitoring](#monitor)
+- [Data Saver](#data-saver)
+- [Tagging](#tag)
+- [Managing Chats & Notifications](#chats-and-notify)
+- [Analytics and Metrics](#analyze-and-metrics)
+- [News Feed Sorting & Filtering](#news-filter)
+- [Auto Complete Hashtag Searches](#auto)
+- [Spam Detection](#spam)
+- [User Authentication](#authenticate)
+- [Viewing Stories](#view)
+- [Reminders](#reminder)
+- [Notification System](#notify)
+
+
+
+
+
+
+
