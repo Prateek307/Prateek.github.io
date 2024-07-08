@@ -85,6 +85,9 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Reminders](#reminder)
 - [Notification System](#notify)
 
+<!-- 1 use case -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+
 <h3 id="friends">1. Sort Friends List</h3>
 <div  style="text-align: justify;">
 There are several ways of sorting the friend list, such as by recent interactions, least interacted with, and mutual friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
@@ -100,8 +103,27 @@ There are several ways of sorting the friend list, such as by recent interaction
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
 View Implementation: [Merge Sort](https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp)
 
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 2 use case -->
 
 
+<h3 id="db-modify">2. Database Modification</h3>
+<div style="text-align: justify;">
+Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
+
+</div>
+
+**Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
+
+**Market Benefits**: Reduced storage costs, improved database performance, and enhanced scalability.
+
+**Design techniques and algorithms:**  
+- **LSM Tree Storage Engine:** Log-structured storage
+   - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
+   - **Space Complexity:**Efficient use of storage due to reduced fragmentation
+View Implementation: [MyRocks DB](https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/)
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 
