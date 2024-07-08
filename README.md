@@ -315,7 +315,7 @@ B+ trees are balanced tree structures designed to maintain sorted data efficient
 
 <h3 id="data-saver">9. Data Saver</h3>
 <div style="text-align: justify;">
-Facebook offers a Data Saver feature designed to minimize data consumption while maintaining efficient application functionality. This feature allows users to run the app using less data by reducing the quality of images and videos displayed. It ensures that users can browse their feed, view content, and interact with posts while conserving data usage, making it particularly beneficial in regions with limited internet access or expensive data plans. Facebook employs Huffman coding to optimize data storage and transmission, especially in scenarios where minimizing data size is critical. Huffman coding is a lossless data compression algorithm that assigns shorter codes to frequently used data patterns and longer codes to less frequent ones, based on their probability of occurrence. This ensures efficient data representation and reduced storage requirements, beneficial for enhancing data transmission speeds and reducing bandwidth usage across Facebook's platform.
+Facebook offers a Data Saver feature designed to minimize data consumption while maintaining efficient application functionality. This feature allows users to run the app using less data by reducing the quality of images and videos displayed. It ensures that users can browse their feed, view content, and interact with posts while conserving data usage, making it particularly beneficial in regions with limited internet access or expensive data plans. Facebook employs Huffman coding to optimize data storage and transmission, especially in scenarios where minimizing data size is critical. Huffman coding is a lossless data compression algorithm that assigns shorter codes to frequently used data patterns and longer codes to less frequent ones, based on their probability of occurrence. This ensures efficient data representation and reduced storage requirements, beneficial for enhancing data transmission speeds and reducing bandwidth usage across Facebook's platform.[13]
 
 </div>
 
@@ -546,39 +546,37 @@ Facebook's notification system is important in keeping users informed about inte
 
 [11] How does Facebook decide what to show in my news feed? 30 Jun, 2014 [https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study](https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study){:target="_blank"} <br>
 
-[12] More Control and Context in News Feed March 31, 2021[https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
+[12] More Control and Context in News Feed March 31,2021[https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
 
 [13] Huffman Coding [https://www.tutorialspoint.com/huffman-coding](https://www.tutorialspoint.com/huffman-coding){:target="_blank"} <br>
 
-[14] More Control and Context in News Feed March 31, 2021 [https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
+[14] Doubly linked list [https://www.javatpoint.com/doubly-linked-list](https://www.javatpoint.com/doubly-linked-list){:target="_blank"} <br>
 
-[15] Doubly linked list [https://www.javatpoint.com/doubly-linked-list](https://www.javatpoint.com/doubly-linked-list){:target="_blank"} <br>
+[15] Insertion in a Doubly Linked List 18 Mar, 2024 [https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/](https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/){:target="_blank"} <br>
 
-[16] Insertion in a Doubly Linked List 18 Mar, 2024 [https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/](https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/){:target="_blank"} <br>
+[16] Depth First Search or DFS for a Graph 27 Jun ,2024 [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/){:target="_blank"} <br>
 
-[17] Depth First Search or DFS for a Graph 27 Jun ,2024 [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/){:target="_blank"} <br>
+[17] Segment Tree 03 Apr, 2024 [https://www.geeksforgeeks.org/segment-tree-data-structure/](https://www.geeksforgeeks.org/segment-tree-data-structure/){:target="_blank"} <br>
 
-[18] Segment Tree 03 Apr, 2024 [https://www.geeksforgeeks.org/segment-tree-data-structure/](https://www.geeksforgeeks.org/segment-tree-data-structure/){:target="_blank"} <br>
+[18] Segment Tree December 20,2023 [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html){:target="_blank"} <br>
 
-[19] Segment Tree December 20,2023 [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html){:target="_blank"} <br>
+[19] Segment Tree Implementation  [https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp](https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp){:target="_blank"} <br>
 
-[20] Segment Tree Implementation  [https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp](https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp){:target="_blank"} <br>
+[20] Best practices for data center network optimization 24 Oct, 2022  [https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization](https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization){:target="_blank"} <br>
 
-[21] Best practices for data center network optimization 24 Oct, 2022  [https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization](https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization){:target="_blank"} <br>
+[21] Data Center Optimization Strategies March ,2022 [https://www.akcp.com/blog/data-center-optimization-strategies/](https://www.akcp.com/blog/data-center-optimization-strategies/){:target="_blank"} <br>
 
-[22] Data Center Optimization Strategies March ,2022 [https://www.akcp.com/blog/data-center-optimization-strategies/](https://www.akcp.com/blog/data-center-optimization-strategies/){:target="_blank"} <br>
+[22] A* Search Algorithm  07 Mar ,2024 [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}<br>
 
-[23] A* Search Algorithm  07 Mar ,2024 [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}<br>
+[23] Binary Search Tree 22 Feb, 2024 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/){:target="_blank"} <br>
 
-[24] Binary Search Tree 22 Feb, 2024 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/){:target="_blank"} <br>
+[24] Binary Search tree [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree){:target="_blank"} <br>
 
-[25] Binary Search tree [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree){:target="_blank"} <br>
+[25] Priority Queue[https://www.programiz.com/dsa/priority-queue](https://www.programiz.com/dsa/priority-queue){:target="_blank"} <br>
 
-[26] Priority Queue[https://www.programiz.com/dsa/priority-queue](https://www.programiz.com/dsa/priority-queue){:target="_blank"} <br>
+[26] Implementing our Own Hash Table with Separate Chaining, 13 Jun, 2024 [https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/](https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/){:target="_blank"} <br>
 
-[27] Implementing our Own Hash Table with Separate Chaining, 13 Jun, 2024 [https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/](https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/){:target="_blank"} <br>
-
-[28] Hash Table Explained: What it Is and How to Implement It Nov 22, 2022 [https://www.freecodecamp.org/news/hash-tables/](https://www.freecodecamp.org/news/hash-tables/){:target="_blank"} <br>
+[27] Hash Table Explained: What it Is and How to Implement It Nov 22, 2022 [https://www.freecodecamp.org/news/hash-tables/](https://www.freecodecamp.org/news/hash-tables/){:target="_blank"} <br>
 
 
 
