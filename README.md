@@ -236,7 +236,7 @@ For the efficient detection of spam content within posts, comments, and messages
    - **Time Complexity:**  O(L), where L is the length of the spam pattern or keyword.
    - **Space Complexity:**Efficient use of memory with hashmap and trie nodes.
 
-**View Implementation:** <a href="" target="_blank">Hashmaps</a>,
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Maps.cpp" target="_blank">Hashmaps</a>,
 <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Trie.cpp" target="_blank">Tries</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
