@@ -111,11 +111,19 @@ There are several ways of sorting the friend list, such as by recent interaction
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
 
+<p align="center">
+    <img src="Image\Image3Edit.gif" width="700" alt="HLD-Youtube">
+</p>
+
 <h3 id="db-modify">2. Database Modification</h3>
 <div style="text-align: justify;">
 Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
 
 </div>
+
+<p align="center">
+    <img src="Image\Image4Edit.gif" width="700" alt="HLD-Youtube">
+</p>
 
 **Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
 
