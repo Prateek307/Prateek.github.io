@@ -85,6 +85,19 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Reminders](#reminder)
 - [Notification System](#notify)
 
+<h3 id="friends">Sort Friend List</h3>
+Facebook processes millions of user profiles and their associated friends lists daily. Efficiently sorting these friend lists is crucial for enhancing user experience, especially when users search or scroll through their friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
+
+**Challenges**: Handling dynamically changing friends lists, ensuring low latency during sorting operations.
+
+**Market Benefits**: Improved user experience with faster and more responsive friend list management.
+
+**Design techniques and algorithms:**  
+- **Merge Sort:** Divide-and-conquer technique
+   - **Time Complexity:** O(n log n), where n is the number of friends in the list.
+   - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
+View Implementation: [Merge Sort](Codes\MergeSort.cpp)
+
 
 
 
