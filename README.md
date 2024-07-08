@@ -85,8 +85,8 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Reminders](#reminder)
 - [Notification System](#notify)
 
-<!-- 1 use case -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 1 use case -->
 
 <h3 id="friends">1. Sort Friends List</h3>
 <div  style="text-align: justify;">
@@ -128,19 +128,33 @@ View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/m
 
 <h3 id="friend-recommend">3. Friends Recommendation</h3>
 <div style="text-align: justify;">
-Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
-
+<p>
+Facebook uses advanced algorithms to recommend friends by analyzing user data and connections. One effective approach to this problem is by using the concept of degrees of separation, which can be efficiently implemented using graph traversal algorithms such as breadth-first search (BFS).
+</p>
+<h4>Case 1: Simplifying the Problem (Not considering millions of users)</h4>
+<p>
+To represent the problem, we construct a graph where each person is a node, and an edge between two nodes indicates a friendship. To find the path between two people, we start with one person and perform a simple BFS. Alternatively, bidirectional BFS can be used, which involves two simultaneous BFS operations: one from the source and one from the destination. When the searches collide, we have found a path. Depth-first search (DFS) is not suitable here as it does not guarantee finding the shortest path and can be inefficient. In the implementation, two classes, BFSData and PathNode, are used to store necessary data for the BFS, such as visited nodes and the path being traced.
+</p>
+<p>
+<h4>Case 2: Handling Millions of Users</h4>
+When dealing with millions of users, data cannot be stored on a single machine. Thus, the simple data structure for a Person needs to be adjusted to accommodate distributed storage. Instead of a list of friends, each user maintains a list of their friends' IDs. The traversal process involves determining the machine that holds a friend's data and querying that machine for the friend's information. This approach ensures efficient handling of large-scale data across multiple servers.
+</p>
 </div>
 
-**Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
+**Challenges**: Handling the vast number of users and their connections, ensuring efficient and accurate recommendations.
 
-**Market Benefits**: Reduced storage costs, improved database performance, and enhanced scalability.
+**Market Benefits**:Enhanced user engagement through accurate friend recommendations, increased user activity, and retention.
 
 **Design techniques and algorithms:**  
-- **LSM Tree Storage Engine:** Log-structured storage
-   - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
-   - **Space Complexity:**Efficient use of storage due to reduced fragmentation
-View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">MyRocks DB
+- **Breadth-First Search (BFS):** Graph traversal technique
+   - **Time Complexity:** O(V + E), where V is the number of vertices (users) and E is the number of edges (friend connections).
+   - **Space Complexity:** O(V), for storing visited nodes and the queue.
+- **Bidirectional BFS:** Optimized graph traversal
+   - **Time Complexity:** O(b^(d/2)), where b is the branching factor and d is the distance between the nodes.
+   - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
+View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Case 1
+</a>
+View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Case 2
 </a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
