@@ -435,7 +435,7 @@ Facebook's notification system is important in keeping users informed about inte
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
-## Business Use Cases
+## References
 [1] Facebook social network July 07, 2024 [https://www.britannica.com/money/Facebook](https://www.britannica.com/money/Facebook){:target="_blank"} <br>
 
 [2] Facebook Explained: Origins, Why People Like It, and Key Features  May 15, 2024 [https://www.lifewire.com/what-is-facebook-3486391](https://www.lifewire.com/what-is-facebook-3486391){:target="_blank"} <br>
