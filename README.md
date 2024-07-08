@@ -343,7 +343,7 @@ Facebook offers a Data Saver feature designed to minimize data consumption while
 <h3 id="chats-and-notify">10. Managing Chats & Notifications</h3>
 
 <p align="center">
-    <img src="Image\Image13.gif" width="300" alt="HLD-Youtube">
+    <img src="Image\Image13.gif" width="400" alt="HLD-Youtube">
 </p>
 
 <div style="text-align: justify;">
@@ -351,7 +351,7 @@ There are several chats and notifications for a user in Facebook, where a user c
 </div>
 
 <p align="center">
-    <img src="Image\Image14.gif" width="300" alt="HLD-Youtube">
+    <img src="Image\Image14.gif" width="500" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Ensuring real-time updates across multiple users, managing memory efficiently for dynamic data changes.
@@ -376,7 +376,7 @@ Tagging is a feature in Facebook where users can tag other users in posts, photo
 </div>
 
 <p align="center">
-    <img src="Image\Image15.gif" width="300" alt="HLD-Youtube">
+    <img src="Image\Image15.gif" width="500" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Ensuring tag authenticity and privacy compliance across diverse user settings, managing real-time updates in tag permissions.
@@ -399,7 +399,7 @@ Analytics and metrics play a crucial role in Facebook's platform, providing insi
 </div>
 
 <p align="center">
-    <img src="Image\Image16.png" width="300" alt="HLD-Youtube">
+    <img src="Image\Image16.png" width="500" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling massive data volumes, ensuring real-time updates for dynamic user interactions, optimizing query performance for diverse analytics queries.
