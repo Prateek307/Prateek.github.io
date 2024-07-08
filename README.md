@@ -436,5 +436,59 @@ Facebook's notification system is important in keeping users informed about inte
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Business Use Cases
-[1] Facebook social network July 07, 2024 [https://www.britannica.com/money/Facebook](https://www.britannica.com/money/Facebook){:target="_blank"} <br><br>
-[2] Facebook Explained: Origins, Why People Like It, and Key Features  May 15, 2024 [https://www.lifewire.com/what-is-facebook-3486391](https://www.lifewire.com/what-is-facebook-3486391){:target="_blank"} <br><br>
+[1] Facebook social network July 07, 2024 [https://www.britannica.com/money/Facebook](https://www.britannica.com/money/Facebook){:target="_blank"} <br>
+
+[2] Facebook Explained: Origins, Why People Like It, and Key Features  May 15, 2024 [https://www.lifewire.com/what-is-facebook-3486391](https://www.lifewire.com/what-is-facebook-3486391){:target="_blank"} <br>
+
+[3] An Introduction to Facebook’s System Architecture: Social Graph and TAO Sep 7, 2020 [https://medium.com/swlh/an-introduction-to-facebooks-system-architecture-47cfcf597101](https://medium.com/swlh/an-introduction-to-facebooks-system-architecture-47cfcf597101){:target="_blank"} <br>
+
+[4] Design data structures for a very large social network like Facebook or Linkedln 20 Feb, 2023 [https://www.geeksforgeeks.org/design-data-structures-for-a-very-large-social-network-like-facebook-or-linkedln/](https://www.geeksforgeeks.org/design-data-structures-for-a-very-large-social-network-like-facebook-or-linkedln/){:target="_blank"} <br>
+
+[5] Auto-complete feature using Trie  20 Feb, 2023 [https://www.geeksforgeeks.org/auto-complete-feature-using-trie/](https://www.geeksforgeeks.org/auto-complete-feature-using-trie/){:target="_blank"} <br>
+
+[6] Good Question: How Does Facebook Monitor Its Content? April 18, 2017 [https://www.cbsnews.com/minnesota/news/gq-facebook-monitoring/](https://www.cbsnews.com/minnesota/news/gq-facebook-monitoring/){:target="_blank"} <br>
+
+[7] Deque in Java [https://www.tutorialspoint.com/deque-in-java](https://www.tutorialspoint.com/deque-in-java){:target="_blank"} <br>
+
+[8] How Facebook uses machine learning to detect fake accounts Apr 02, 2020 [https://www.technologyreview.com/2020/03/04/905551/how-facebook-uses-machine-learning-to-detect-fake-accounts/](https://www.technologyreview.com/2020/03/04/905551/how-facebook-uses-machine-learning-to-detect-fake-accounts/){:target="_blank"} <br>
+
+[9] Facebook found a new way to identify spam and false news articles in your News Feed Jun 30, 2017 [https://www.vox.com/2017/6/30/15896544/facebook-fake-news-feed-algorithm-update-spam](https://www.vox.com/2017/6/30/15896544/facebook-fake-news-feed-algorithm-update-spam){:target="_blank"} <br>
+
+[10] Map 24 November, 2023 [https://en.cppreference.com/w/cpp/container/map](https://en.cppreference.com/w/cpp/container/map){:target="_blank"} <br>
+
+[11] How does Facebook decide what to show in my news feed? 30 Jun, 2014 [https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study](https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study){:target="_blank"} <br>
+
+[12] Huffman Coding [https://www.tutorialspoint.com/huffman-coding](https://www.tutorialspoint.com/huffman-coding){:target="_blank"} <br>
+
+[13] More Control and Context in News Feed March 31, 2021 [https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
+
+[14] Doubly linked list [https://www.javatpoint.com/doubly-linked-list](https://www.javatpoint.com/doubly-linked-list){:target="_blank"} <br>
+
+[15] Insertion in a Doubly Linked List 18 Mar, 2024 [https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/](https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/){:target="_blank"} <br>
+
+[16] Depth First Search or DFS for a Graph 27 Jun ,2024 [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/){:target="_blank"} <br>
+
+[17] Segment Tree 03 Apr, 2024 [https://www.geeksforgeeks.org/segment-tree-data-structure/](https://www.geeksforgeeks.org/segment-tree-data-structure/){:target="_blank"} <br>
+
+[18] Segment Tree December 20,2023 [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html){:target="_blank"} <br>
+
+[19] Segment Tree Implementation  [https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp](https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp){:target="_blank"} <br>
+
+[20] Best practices for data center network optimization 24 Oct, 2022  [https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization](https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization){:target="_blank"} <br>
+
+[21] Data Center Optimization Strategies March ,2022 [https://www.akcp.com/blog/data-center-optimization-strategies/](https://www.akcp.com/blog/data-center-optimization-strategies/){:target="_blank"} <br>
+
+[22] A* Search Algorithm  07 Mar ,2024 [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}<br>
+
+[23] Binary Search Tree 22 Feb, 2024 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/){:target="_blank"} <br>
+
+[24] Binary Search tree [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree){:target="_blank"} <br>
+
+[25] Priority Queue[https://www.programiz.com/dsa/priority-queue](https://www.programiz.com/dsa/priority-queue){:target="_blank"} <br>
+
+[26] Implementing our Own Hash Table with Separate Chaining, 13 Jun, 2024 [https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/](https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/){:target="_blank"} <br>
+
+[27] Hash Table Explained: What it Is and How to Implement It Nov 22, 2022 [https://www.freecodecamp.org/news/hash-tables/](https://www.freecodecamp.org/news/hash-tables/){:target="_blank"} <br>
+
+
+
