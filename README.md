@@ -71,15 +71,15 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Sort Friend List](#friends)
 - [Database Modification](#db-modify)
 - [Friends Recommendation](#friend-recommend)
-- [Data Center Network Optimization](#optimize)
+- [Auto Complete Hashtag Searches](#auto)
 - [Content Monitoring](#monitor)
 - [Data Saver](#data-saver)
 - [Tag Verification](#tag)
 - [Managing Chats & Notifications](#chats-and-notify)
 - [Analytics and Metrics](#analyze-and-metrics)
 - [News Feed Sorting & Filtering](#news-filter)
-- [Auto Complete Hashtag Searches](#auto)
 - [Spam Detection](#spam)
+- [Data Center Network Optimization](#optimize)
 - [User Authentication](#authenticate)
 - [Viewing Stories](#view)
 - [Reminders](#reminder)
@@ -101,7 +101,8 @@ There are several ways of sorting the friend list, such as by recent interaction
 - **Merge Sort:** Divide-and-conquer technique
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
-View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</a>
+
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">Merge Sort</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
@@ -120,7 +121,8 @@ Facebook’s database is based on MySQL. It is not feasible for a MySQL database
 - **LSM Tree Storage Engine:** Log-structured storage
    - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
    - **Space Complexity:**Efficient use of storage due to reduced fragmentation
-View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Merge Sort
+
+**View Implementation:** <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">MyRocks DB
 </a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
@@ -152,16 +154,29 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 - **Bidirectional BFS:** Optimized graph traversal
    - **Time Complexity:** O(b^(d/2)), where b is the branching factor and d is the distance between the nodes.
    - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
-View Implementation: 
-<br>
-<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1
-</a>
-<br>
-<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2
-</a>
+
+**View Implementation:** 
+- **<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1</a>**
+- **<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2</a>**
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 4 use case -->
 
+<h3 id="optimize">1. Data Center Network Optimization</h3>
+<div  style="text-align: justify;">
+There are several ways of sorting the friend list, such as by recent interactions, least interacted with, and mutual friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
+</div>
 
+**Challenges**: Handling dynamically changing friends lists, ensuring low latency during sorting operations.
 
+**Market Benefits**: Improved user experience with faster and more responsive friend list management.
 
+**Design techniques and algorithms:**  
+- **Merge Sort:** Divide-and-conquer technique
+   - **Time Complexity:** O(n log n), where n is the number of friends in the list.
+   - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
+
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 5 use case -->
