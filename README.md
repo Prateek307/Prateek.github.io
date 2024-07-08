@@ -98,7 +98,7 @@ There are several ways of sorting the friend list, such as by recent interaction
 - **Merge Sort:** Divide-and-conquer technique
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
-View Implementation: [Merge Sort](https://github.com/Prateek.github.io/Codes/MergeSort.cpp)
+View Implementation: [Merge Sort](https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp)
 
 
 
