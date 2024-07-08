@@ -152,9 +152,9 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 - **Bidirectional BFS:** Optimized graph traversal
    - **Time Complexity:** O(b^(d/2)), where b is the branching factor and d is the distance between the nodes.
    - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
-View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Case 1
+View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1
 </a>
-View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Case 2
+View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2
 </a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
