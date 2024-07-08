@@ -158,7 +158,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image5.webp" width="700" alt="HLD-Youtube">
+    <img src="Image\Image5.webp" width="400" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling the vast number of users and their connections, ensuring efficient and accurate recommendations.
@@ -187,7 +187,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image6.webp" width="700" alt="HLD-Youtube">
+    <img src="Image\Image6.gif" width=700" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
