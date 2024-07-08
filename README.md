@@ -177,7 +177,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    - **Time Complexity:** O(Q + k), where Q is the length of the query prefix and k is the number of matching words found. 
    - **Space Complexity:** O(N * L), where N is the number of strings stored in the Trie and L is the average length of these strings. 
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Auto_complete_feature.cpp" target="_blank">MyRocks DB</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Auto_complete_feature.cpp" target="_blank">Trie</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 5 use case -->
