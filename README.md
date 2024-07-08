@@ -26,7 +26,7 @@ Facebook requires users to use real identities to foster genuine connections and
 Despite efforts to improve user controls, privacy remains a contentious issue for Facebook. Commercially, Facebook's influence grew with its expansion beyond students in 2006, facilitating direct consumer engagement and advertising innovations. The company's IPO in 2012 raised $16 billion, marking a significant financial milestone and underlining its market dominance. Strategic acquisitions like Instagram and WhatsApp expanded its service portfolio, enhancing its market presence. Facebook's impact extends beyond social networking, playing pivotal roles in political movements globally, from U.S. elections to protests in Colombia and Egypt. The platform's API opened opportunities for third-party developers, fostering a robust app ecosystem and generating substantial revenue.
 </p>
 <p>
-In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift towards developing the metaverse—a virtual reality environment promising new interactive possibilities. Facebook/Meta Platforms has evolved from a university-based social network into a global powerhouse, reshaping communication, commerce, and societal interactions.
+In recent years, Facebook rebranded as Meta Platforms in 2021, signaling a shift towards developing the metaverse—a virtual reality environment promising new interactive possibilities. Facebook/Meta Platforms has evolved from a university-based social network into a global powerhouse, reshaping communication, commerce, and societal interactions.[1][2]
 </p>
 </div>
 
@@ -63,7 +63,7 @@ In Facebook's backend system, two main components are crucial: TAO and the datab
 </p>
 <h3>Database</h3>
 <p>
-Facebook's approach to scaling its MySQL database involved two major modifications. Firstly, they implemented Database Sharding, partitioning objects and associations into logical shards distributed across database instances. TAO, their distributed data store, determines shard placement for new data and handles queries to the appropriate shard. Secondly, Facebook optimized storage efficiency by adopting the LSM (Log-Structured Merge) tree storage engine, specifically MyRocks DB. This replaced the traditional InnoDB engine's B+ trees, reducing storage requirements by 50% and enhancing database latency, particularly beneficial with the shift from HDD to Flash or SSD storage technologies.
+Facebook's approach to scaling its MySQL database involved two major modifications. Firstly, they implemented Database Sharding, partitioning objects and associations into logical shards distributed across database instances. TAO, their distributed data store, determines shard placement for new data and handles queries to the appropriate shard. Secondly, Facebook optimized storage efficiency by adopting the LSM (Log-Structured Merge) tree storage engine, specifically MyRocks DB. This replaced the traditional InnoDB engine's B+ trees, reducing storage requirements by 50% and enhancing database latency, particularly beneficial with the shift from HDD to Flash or SSD storage technologies.[3]
 </p>
 </div>
 
@@ -153,7 +153,7 @@ To represent the problem, we construct a graph where each person is a node, and 
 </p>
 <p>
 <h4>Case 2: Handling Millions of Users</h4>
-When dealing with millions of users, data cannot be stored on a single machine. Thus, the simple data structure for a Person needs to be adjusted to accommodate distributed storage. Instead of a list of friends, each user maintains a list of their friends' IDs. The traversal process involves determining the machine that holds a friend's data and querying that machine for the friend's information. This approach ensures efficient handling of large-scale data across multiple servers.
+When dealing with millions of users, data cannot be stored on a single machine. Thus, the simple data structure for a Person needs to be adjusted to accommodate distributed storage. Instead of a list of friends, each user maintains a list of their friends' IDs. The traversal process involves determining the machine that holds a friend's data and querying that machine for the friend's information. This approach ensures efficient handling of large-scale data across multiple servers.[4]
 </p>
 </div>
 
@@ -182,7 +182,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 
 <h3 id="auto">4. Auto Complete Searches</h3>
 <div style="text-align: justify;">
-    The Trie data structure is utilized for efficient auto-completion of  searches based on past user inputs. The Trie stores a set of strings representing past searches by users.When a user types in a prefix of their search query, the system provides recommendations to auto-complete the query based on the stored strings in the Trie.For example, if the Trie stores {"abc", "abcd", "aa", "abbbaba"} and the user types in "ab", they should be shown {"abc", "abcd", "abbbaba"}.
+    The Trie data structure is utilized for efficient auto-completion of  searches based on past user inputs. The Trie stores a set of strings representing past searches by users.When a user types in a prefix of their search query, the system provides recommendations to auto-complete the query based on the stored strings in the Trie.For example, if the Trie stores {"abc", "abcd", "aa", "abbbaba"} and the user types in "ab", they should be shown {"abc", "abcd", "abbbaba"}.[5]
 
 </div>
 
@@ -206,7 +206,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 
 <h3 id="monitor">5. Content Monitoring</h3>
 <div style="text-align: justify;">
-   Facebook's content moderation strategy relies heavily on community flagging and human review processes to enforce community standards, including the monitoring of Facebook Live broadcasts. When content is flagged, a global team proficient in over 40 languages reviews it promptly. The Rabin-Karp string matching algorithm can efficiently detect specific patterns or content violations within posts, comments, and live videos. This algorithm enhances the team's ability to quickly identify and respond to flagged content, contributing to a safer and compliant platform environment.
+   Facebook's content moderation strategy relies heavily on community flagging and human review processes to enforce community standards, including the monitoring of Facebook Live broadcasts. When content is flagged, a global team proficient in over 40 languages reviews it promptly. The Rabin-Karp string matching algorithm can efficiently detect specific patterns or content violations within posts, comments, and live videos. This algorithm enhances the team's ability to quickly identify and respond to flagged content, contributing to a safer and compliant platform environment.[6]
 
 </div>
 
@@ -230,7 +230,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 
 <h3 id="view">6. Viewing Stories</h3>
 <div style="text-align: justify;">
-   The deque (double-ended queue) data structure is utilized in Facebook's "Viewing Stories" feature for efficient management and display of user-generated stories. Stories are temporary multimedia posts that users can view and share with their friends. Using a deque allows Facebook to efficiently manage the sequence of stories displayed to users, supporting both forward and backward navigation through the list of stories.
+   The deque (double-ended queue) data structure is utilized in Facebook's "Viewing Stories" feature for efficient management and display of user-generated stories. Stories are temporary multimedia posts that users can view and share with their friends. Using a deque allows Facebook to efficiently manage the sequence of stories displayed to users, supporting both forward and backward navigation through the list of stories.[7]
 
 </div>
 
@@ -259,7 +259,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </p>
 
 <div style="text-align: justify;">
-For the efficient detection of spam content within posts, comments, and messages on Facebook. Hashmap and Tries can be utilized . Hashmap enables quick lookup and categorization of flagged patterns, while tries facilitate rapid matching against stored spam keywords and phrases.
+For the efficient detection of spam content within posts, comments, and messages on Facebook. Hashmap and Tries can be utilized . Hashmap enables quick lookup and categorization of flagged patterns, while tries facilitate rapid matching against stored spam keywords and phrases.[8][9][10]
 </div>
 
 <p align="center">
@@ -284,7 +284,7 @@ For the efficient detection of spam content within posts, comments, and messages
 <h3 id="news-filter">8. News Feed Sorting & Filtering</h3>
 <div style="text-align: justify;">
 <p>
-Facebook's news feed algorithm condenses approximately 1,500 daily potential posts into roughly 300 prioritized ones. Factors influencing this selection include how frequently users interact with friends, pages, or public figures, the engagement levels (likes, shares, comments) of individual posts, historical interaction patterns with similar content, and the prevalence of hiding or reporting specific posts. 
+Facebook's news feed algorithm condenses approximately 1,500 daily potential posts into roughly 300 prioritized ones. Factors influencing this selection include how frequently users interact with friends, pages, or public figures, the engagement levels (likes, shares, comments) of individual posts, historical interaction patterns with similar content, and the prevalence of hiding or reporting specific posts.[11][12]
 </p>
 
 <p align="center">
@@ -546,37 +546,39 @@ Facebook's notification system is important in keeping users informed about inte
 
 [11] How does Facebook decide what to show in my news feed? 30 Jun, 2014 [https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study](https://www.theguardian.com/technology/2014/jun/30/facebook-news-feed-filters-emotion-study){:target="_blank"} <br>
 
-[12] Huffman Coding [https://www.tutorialspoint.com/huffman-coding](https://www.tutorialspoint.com/huffman-coding){:target="_blank"} <br>
+[12] More Control and Context in News Feed March 31, 2021[https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
 
-[13] More Control and Context in News Feed March 31, 2021 [https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
+[13] Huffman Coding [https://www.tutorialspoint.com/huffman-coding](https://www.tutorialspoint.com/huffman-coding){:target="_blank"} <br>
 
-[14] Doubly linked list [https://www.javatpoint.com/doubly-linked-list](https://www.javatpoint.com/doubly-linked-list){:target="_blank"} <br>
+[14] More Control and Context in News Feed March 31, 2021 [https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/](https://about.fb.com/news/2021/03/more-control-and-context-in-news-feed/){:target="_blank"} <br>
 
-[15] Insertion in a Doubly Linked List 18 Mar, 2024 [https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/](https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/){:target="_blank"} <br>
+[15] Doubly linked list [https://www.javatpoint.com/doubly-linked-list](https://www.javatpoint.com/doubly-linked-list){:target="_blank"} <br>
 
-[16] Depth First Search or DFS for a Graph 27 Jun ,2024 [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/){:target="_blank"} <br>
+[16] Insertion in a Doubly Linked List 18 Mar, 2024 [https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/](https://www.geeksforgeeks.org/introduction-and-insertion-in-a-doubly-linked-list/){:target="_blank"} <br>
 
-[17] Segment Tree 03 Apr, 2024 [https://www.geeksforgeeks.org/segment-tree-data-structure/](https://www.geeksforgeeks.org/segment-tree-data-structure/){:target="_blank"} <br>
+[17] Depth First Search or DFS for a Graph 27 Jun ,2024 [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/){:target="_blank"} <br>
 
-[18] Segment Tree December 20,2023 [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html){:target="_blank"} <br>
+[18] Segment Tree 03 Apr, 2024 [https://www.geeksforgeeks.org/segment-tree-data-structure/](https://www.geeksforgeeks.org/segment-tree-data-structure/){:target="_blank"} <br>
 
-[19] Segment Tree Implementation  [https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp](https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp){:target="_blank"} <br>
+[19] Segment Tree December 20,2023 [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html){:target="_blank"} <br>
 
-[20] Best practices for data center network optimization 24 Oct, 2022  [https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization](https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization){:target="_blank"} <br>
+[20] Segment Tree Implementation  [https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp](https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp){:target="_blank"} <br>
 
-[21] Data Center Optimization Strategies March ,2022 [https://www.akcp.com/blog/data-center-optimization-strategies/](https://www.akcp.com/blog/data-center-optimization-strategies/){:target="_blank"} <br>
+[21] Best practices for data center network optimization 24 Oct, 2022  [https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization](https://www.techtarget.com/searchdatacenter/tip/Best-practices-for-data-center-network-optimization){:target="_blank"} <br>
 
-[22] A* Search Algorithm  07 Mar ,2024 [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}<br>
+[22] Data Center Optimization Strategies March ,2022 [https://www.akcp.com/blog/data-center-optimization-strategies/](https://www.akcp.com/blog/data-center-optimization-strategies/){:target="_blank"} <br>
 
-[23] Binary Search Tree 22 Feb, 2024 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/){:target="_blank"} <br>
+[23] A* Search Algorithm  07 Mar ,2024 [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}<br>
 
-[24] Binary Search tree [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree){:target="_blank"} <br>
+[24] Binary Search Tree 22 Feb, 2024 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/binary-search-tree-data-structure/){:target="_blank"} <br>
 
-[25] Priority Queue[https://www.programiz.com/dsa/priority-queue](https://www.programiz.com/dsa/priority-queue){:target="_blank"} <br>
+[25] Binary Search tree [https://www.javatpoint.com/binary-search-tree](https://www.javatpoint.com/binary-search-tree){:target="_blank"} <br>
 
-[26] Implementing our Own Hash Table with Separate Chaining, 13 Jun, 2024 [https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/](https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/){:target="_blank"} <br>
+[26] Priority Queue[https://www.programiz.com/dsa/priority-queue](https://www.programiz.com/dsa/priority-queue){:target="_blank"} <br>
 
-[27] Hash Table Explained: What it Is and How to Implement It Nov 22, 2022 [https://www.freecodecamp.org/news/hash-tables/](https://www.freecodecamp.org/news/hash-tables/){:target="_blank"} <br>
+[27] Implementing our Own Hash Table with Separate Chaining, 13 Jun, 2024 [https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/](https://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/){:target="_blank"} <br>
+
+[28] Hash Table Explained: What it Is and How to Implement It Nov 22, 2022 [https://www.freecodecamp.org/news/hash-tables/](https://www.freecodecamp.org/news/hash-tables/){:target="_blank"} <br>
 
 
 
