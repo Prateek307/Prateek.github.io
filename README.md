@@ -197,6 +197,6 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    - **Time Complexity:** O(n + m), where n is the length of the text and m is the length of the pattern.
    - **Space Complexity:** O(1), excluding the space required for storing the input text and pattern.
 
-**View Implementation:** <a href="" target="_blank">Trie</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RabinKarp.cpp" target="_blank">Trie</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
