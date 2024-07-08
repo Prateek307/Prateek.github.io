@@ -426,7 +426,7 @@ Facebook's notification system is important in keeping users informed about inte
 
 **View Implementation:** 
 <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/PriorityQueue.cpp" target="_blank">Priority Queues</a>,
-<a href="" target="_blank">HashTables</a>
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/HashTables.java" target="_blank">HashTables</a>
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
