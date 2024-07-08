@@ -101,7 +101,7 @@ There are several ways of sorting the friend list, such as by recent interaction
 - **Merge Sort:** Divide-and-conquer technique
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
-View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</
+View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
@@ -152,9 +152,12 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 - **Bidirectional BFS:** Optimized graph traversal
    - **Time Complexity:** O(b^(d/2)), where b is the branching factor and d is the distance between the nodes.
    - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
-View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1
+View Implementation: 
+<br>
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1
 </a>
-View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2
+<br>
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2
 </a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
