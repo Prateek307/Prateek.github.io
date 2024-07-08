@@ -112,7 +112,7 @@ There are several ways of sorting the friend list, such as by recent interaction
 <!-- 2 use case -->
 
 <p align="center">
-    <img src="Image\Image3Edit.gif" width="700" alt="HLD-Youtube">
+    <img src="Image\Image3.webp" width="700" alt="HLD-Youtube">
 </p>
 
 <h3 id="db-modify">2. Database Modification</h3>
@@ -122,7 +122,7 @@ Facebook’s database is based on MySQL. It is not feasible for a MySQL database
 </div>
 
 <p align="center">
-    <img src="Image\Image4Edit.gif" width="700" alt="HLD-Youtube">
+    <img src="Image\Image4.webp" width="700" alt="HLD-Youtube">
 </p>
 
 **Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
