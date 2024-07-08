@@ -124,7 +124,7 @@ Facebook’s database is based on MySQL. It is not feasible for a MySQL database
 </div>
 
 <p align="center">
-    <img src="Image\Image4.webp" width="300" alt="HLD-Youtube">
+    <img src="Image\Image4.webp" width="500" alt="HLD-Youtube">
 </p>
 
 **Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
@@ -187,7 +187,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image6.gif" width="250" alt="HLD-Youtube">
+    <img src="Image\Image6.gif" width="350" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
@@ -211,7 +211,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image7.webp" width="300" alt="HLD-Youtube">
+    <img src="Image\Image7.webp" width="500" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Ensuring real-time detection of prohibited content, handling large volumes of data efficiently.
