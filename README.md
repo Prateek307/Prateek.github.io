@@ -307,4 +307,130 @@ There are several chats and notifications for a user in Facebook, where a user c
 
 **View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/DoublyLinkedList.cpp" target="_blank">Doubly Linked List</a>
 
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- 11 use case -->
+
+<h3 id="tag">11. Tagging Verification</h3>
+<div style="text-align: justify;">
+Tagging is a feature in Facebook where users can tag other users in posts, photos, or comments. Once a user tags another, the tag needs to be authenticated and verified based on the privacy settings of the tagged user. This entire process of verification and authentication can be efficiently managed using Depth-First Search (DFS), a fundamental algorithm in graph theory and data structures. DFS is utilized by Facebook to traverse through the network of tagged users and their privacy settings. It starts from the tagged user and explores all connected users recursively, ensuring that the tag reaches only those users whose privacy settings permit such tagging. This approach helps maintain user privacy and ensures that tags are visible and actionable only to intended recipients. By employing DFS, Facebook efficiently verifies the authenticity of tags and adheres to privacy preferences set by its users.
+</div>
+
+**Challenges**: Ensuring tag authenticity and privacy compliance across diverse user settings, managing real-time updates in tag permissions.
+
+**Market Benefits**:  Improved user trust with secure and compliant tagging features, enhanced user engagement through accurate tag notifications and interactions.
+
+**Design techniques and algorithms:**  
+- **Depth-First Search (DFS):**  Graph traversal technique for exploring tag permissions
+   - **Time Complexity:** O(V + E), where V is the number of users and E is the number of connections (edges) between users.
+   - **Space Complexity:**  O(V), where V is the number of users, for maintaining the DFS stack and visited nodes.
+
+**View Implementation:** <a href="" target="_blank"> Depth-First Search</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 12 use case -->
+
+<h3 id="analyze-and-metrics">12. Analytics and Metrics</h3>
+<div style="text-align: justify;">
+Analytics and metrics play a crucial role in Facebook's platform, providing insights into users behavior, engagement metrics, and content performance. Segment Trees, a specialized data structure, can efficiently compute and manage these analytics.Segment Trees are utilized by Facebook to aggregate and analyze large volumes of user data, such as interactions (likes, comments, shares), posting frequency, and content preferences. These trees enable efficient range queries and updates, allowing Facebook to compute metrics like user engagement over specific time intervals or across different user segments.
+</div>
+
+**Challenges**: Handling massive data volumes, ensuring real-time updates for dynamic user interactions, optimizing query performance for diverse analytics queries.
+
+**Market Benefits**:Enhanced user insights for personalized content recommendations, improved ad targeting based on user behavior, and refined platform performance based on data-driven decisions.
+
+**Design techniques and algorithms:**  
+- **Segment Trees:**  Efficient data structure for range query and update operations
+   - **Time Complexity:**  O(log n) for both query and update operations, where n is the number of data points or segments.
+   - **Space Complexity:** O(n), where n is the number of data points or segments, for storing segment tree nodes.
+
+**View Implementation:** <a href="https://github.com/kevinzg/segment-tree/blob/master/segment_tree/segment_tree.hpp" target="_blank">Segment Trees</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 13 use case -->
+
+<h3 id="optimize">13. Data Center Network Optimization</h3>
+<div style="text-align: justify;">
+Data Center Network Optimization at Facebook involves ensuring efficient routing of packets and minimizing latency across a vast network infrastructure. Facebook's data centers are interconnected through a complex network topology designed to handle massive amounts of data and user requests. The A* algorithm proves invaluable in achieving these goals by optimizing routing decisions based on various criteria such as shortest path, network congestion, and real-time traffic conditions. It navigates this intricate network topology by evaluating potential paths using a combination of a heuristic function and actual network metrics, enabling A* to efficiently select optimal routes that minimize latency and maximize throughput. A* operates by expanding the least costly path first, balancing between the cost of the path so far and the estimated cost to reach the destination. This approach ensures that Facebook's network can dynamically adapt to varying traffic patterns and network failures.
+</div>
+
+**Challenges**: Ensuring secure storage and retrieval of user credentials, preventing unauthorized access through robust hashing and encryption methods, and managing scalability as the user base grows.
+
+**Market Benefits**: Enhanced security measures against unauthorized access, improved user experience with faster login processes, and scalable infrastructure to accommodate increasing user demands.
+
+**Design techniques and algorithms:**  
+- **A Star Algorithm:**Efficient storage and retrieval
+   - **Time Complexity:** O(1) for average-case operations, ensuring rapid access to user credentials.
+   - **Space Complexity:** Depends on the number of users and stored credentials, scalable with Facebook's infrastructure needs.
+
+**View Implementation:** <a href="" target="_blank">A Star Algorithm</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 14 use case -->
+
+<h3 id="authenticate">14. User Authentication</h3>
+<div style="text-align: justify;">
+User authentication at Facebook relies on hash maps to securely store and manage user credentials. Each user's account details, including usernames, email addresses, and hashed passwords, are stored as key-value pairs in a hash map. This data structure allows for rapid retrieval and validation of user credentials during login attempts. Hash maps ensure that user authentication operations, such as checking the validity of login credentials and retrieving user information, are performed with optimal time complexity. Additionally, hash maps support efficient management of user sessions and permissions, enhancing the overall security and user experience on the platform.
+</div>
+
+**Challenges**: Ensuring secure storage and retrieval of user credentials, preventing unauthorized access through robust hashing and encryption methods, and managing scalability as the user base grows.
+
+**Market Benefits**: Enhanced security measures against unauthorized access, improved user experience with faster login processes, and scalable infrastructure to accommodate increasing user demands.
+
+**Design techniques and algorithms:**  
+- **HashMaps:** : Efficient storage and retrieval
+   - **Time Complexity:**   O(1) for average-case operations, ensuring rapid access to user credentials.
+   - **Space Complexity:** Depends on the number of users and stored credentials, scalable with Facebook's infrastructure needs.
+
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Maps.cpp"  target="_blank">Hashmaps</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 15 use case -->
+
+<h3 id="reminder">15. Reminders</h3>
+<div style="text-align: justify;">
+There are several reminders provided in Facebook, such as birthday reminders, event reminders, and more. Facebook utilizes Binary Search Trees (BST) to efficiently manage these reminders for users. Each reminder type, whether it's a birthday or an event, is stored as a node in the BST, sorted based on its scheduled time. This structured approach allows for quick insertion, deletion, and retrieval operations, ensuring that users can easily manage their reminders with minimal computational overhead. The BST structure facilitates efficient searching for upcoming reminders and supports functionalities such as updating reminder details or marking reminders as completed. By leveraging BST, Facebook optimizes the user experience with reliable and timely reminder notifications.
+</div>
+
+**Challenges**:  Handling concurrent user acc   ess to reminder operations, ensuring efficient BST balancing to maintain optimal performance, and integrating reminder functionalities across different Facebook platforms.
+
+**Market Benefits**:   Improved user productivity with organized reminders, enhanced reliability in reminder notifications, and scalable infrastructure to support growing user demands.
+
+**Design techniques and algorithms:**  
+- **Binary Search Trees (BST):** Sorted storage and retrieval
+   - **Time Complexity:**   O(log n) for average-case operations, ensuring efficient reminder management.
+   - **Space Complexity:** Depends on the number of reminders stored, scalable with Facebook's user base and usage patterns.
+
+**View Implementation:** <a href="" target="_blank">Binary Search Tree</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 16 use case -->
+
+<h3 id="notify">16. Notification System</h3>
+<div style="text-align: justify;">
+Facebook's notification system is important in keeping users informed about interactions, updates, and activities within their network. It uses advanced data structures to ensure timely delivery and management of notifications across its platform. Notifications can range from likes on posts to friend requests, event invitations, and more, each requiring efficient handling to maintain a responsive user experience. Facebook employs a combination of data structures, including priority queues and hash tables, to organize and prioritize notifications based on relevance and user interaction patterns. Priority queues are particularly useful for ordering notifications by urgency or time sensitivity, ensuring that critical updates are promptly delivered. Hash tables optimize retrieval times for specific user notifications, allowing quick access and updates as users interact with their notifications.
+</div>
+
+**Challenges**:Managing notification delivery across diverse user bases and interaction patterns, optimizing data structure performance for real-time updates, and ensuring scalability as user engagement grows.
+
+**Market Benefits**:Enhanced user engagement through timely and relevant notifications, improved platform responsiveness, and scalable infrastructure to support increasing notification volumes.
+
+**Design techniques and algorithms:**  
+- **Priority Queues:** Ordering notifications by priority
+   - **Time Complexity:**  Efficient insertion and removal operations, typically O(log n).
+   - **Space Complexity:** Varied, optimized for quick access to high-priority notifications.
+- **Hash Tables:** Fast retrieval and update of individual notifications
+   - **Time Complexity:**  O(1) for average-case lookups and updates.
+   - **Space Complexity:**Depends on the number of notifications stored, scalable with user activity.
+
+**View Implementation:** 
+<a href="" target="_blank">Priority Queues</a>,
+<a href="" target="_blank">HashTables</a>
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
