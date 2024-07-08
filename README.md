@@ -187,7 +187,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image6.gif" width=700" alt="HLD-Youtube">
+    <img src="Image\Image6.gif" width="700" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
