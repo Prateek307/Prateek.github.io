@@ -326,7 +326,7 @@ Tagging is a feature in Facebook where users can tag other users in posts, photo
    - **Time Complexity:** O(V + E), where V is the number of users and E is the number of connections (edges) between users.
    - **Space Complexity:**  O(V), where V is the number of users, for maintaining the DFS stack and visited nodes.
 
-**View Implementation:** <a href="" target="_blank"> Depth-First Search</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/DFS.cpp" target="_blank"> Depth-First Search</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 12 use case -->
@@ -364,7 +364,7 @@ Data Center Network Optimization at Facebook involves ensuring efficient routing
    - **Time Complexity:** O(1) for average-case operations, ensuring rapid access to user credentials.
    - **Space Complexity:** Depends on the number of users and stored credentials, scalable with Facebook's infrastructure needs.
 
-**View Implementation:** <a href="" target="_blank">A Star Algorithm</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/AStar.cpp" target="_blank">A Star Algorithm</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 14 use case -->
@@ -402,7 +402,7 @@ There are several reminders provided in Facebook, such as birthday reminders, ev
    - **Time Complexity:**   O(log n) for average-case operations, ensuring efficient reminder management.
    - **Space Complexity:** Depends on the number of reminders stored, scalable with Facebook's user base and usage patterns.
 
-**View Implementation:** <a href="" target="_blank">Binary Search Tree</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/BST.cpp" target="_blank">Binary Search Tree</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 16 use case -->
@@ -425,7 +425,7 @@ Facebook's notification system is important in keeping users informed about inte
    - **Space Complexity:**Depends on the number of notifications stored, scalable with user activity.
 
 **View Implementation:** 
-<a href="" target="_blank">Priority Queues</a>,
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/PriorityQueue.cpp" target="_blank">Priority Queues</a>,
 <a href="" target="_blank">HashTables</a>
 
 
