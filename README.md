@@ -341,9 +341,18 @@ Facebook offers a Data Saver feature designed to minimize data consumption while
 <!-- 10 use case -->
 
 <h3 id="chats-and-notify">10. Managing Chats & Notifications</h3>
+
+<p align="center">
+    <img src="Image\Image13.gif" width="300" alt="HLD-Youtube">
+</p>
+
 <div style="text-align: justify;">
 There are several chats and notifications for a user in Facebook, where a user can view each chat and notification and perform various actions such as deleting a chat. Facebook makes use of a doubly linked list data structure to efficiently manage these interactions. This approach allows users to navigate through their chat history and notifications chronologically, ensuring quick access and manipulation of individual messages and notifications. Each node in the doubly linked list contains details such as message content, sender information, timestamps, and notification specifics. By utilizing bidirectional traversal and dynamic node management, Facebook ensures that users can interact seamlessly with their chats and notifications, performing actions like deletion or archiving with optimal efficiency and responsiveness.
 </div>
+
+<p align="center">
+    <img src="Image\Image14.gif" width="300" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Ensuring real-time updates across multiple users, managing memory efficiently for dynamic data changes.
 
@@ -366,6 +375,10 @@ There are several chats and notifications for a user in Facebook, where a user c
 Tagging is a feature in Facebook where users can tag other users in posts, photos, or comments. Once a user tags another, the tag needs to be authenticated and verified based on the privacy settings of the tagged user. This entire process of verification and authentication can be efficiently managed using Depth-First Search (DFS), a fundamental algorithm in graph theory and data structures. DFS is utilized by Facebook to traverse through the network of tagged users and their privacy settings. It starts from the tagged user and explores all connected users recursively, ensuring that the tag reaches only those users whose privacy settings permit such tagging. This approach helps maintain user privacy and ensures that tags are visible and actionable only to intended recipients. By employing DFS, Facebook efficiently verifies the authenticity of tags and adheres to privacy preferences set by its users.
 </div>
 
+<p align="center">
+    <img src="Image\Image15.gif" width="300" alt="HLD-Youtube">
+</p>
+
 **Challenges**: Ensuring tag authenticity and privacy compliance across diverse user settings, managing real-time updates in tag permissions.
 
 **Market Benefits**:  Improved user trust with secure and compliant tagging features, enhanced user engagement through accurate tag notifications and interactions.
@@ -384,6 +397,10 @@ Tagging is a feature in Facebook where users can tag other users in posts, photo
 <div style="text-align: justify;">
 Analytics and metrics play a crucial role in Facebook's platform, providing insights into users behavior, engagement metrics, and content performance. Segment Trees, a specialized data structure, can efficiently compute and manage these analytics.Segment Trees are utilized by Facebook to aggregate and analyze large volumes of user data, such as interactions (likes, comments, shares), posting frequency, and content preferences. These trees enable efficient range queries and updates, allowing Facebook to compute metrics like user engagement over specific time intervals or across different user segments.
 </div>
+
+<p align="center">
+    <img src="Image\Image16.png" width="300" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Handling massive data volumes, ensuring real-time updates for dynamic user interactions, optimizing query performance for diverse analytics queries.
 
