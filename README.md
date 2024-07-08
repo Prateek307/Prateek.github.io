@@ -111,11 +111,13 @@ There are several ways of sorting the friend list, such as by recent interaction
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
 
+
+<h3 id="db-modify">2. Database Modification</h3>
+
 <p align="center">
     <img src="Image\Image3.webp" width="700" alt="HLD-Youtube">
 </p>
 
-<h3 id="db-modify">2. Database Modification</h3>
 <div style="text-align: justify;">
 Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
 
@@ -155,6 +157,10 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </p>
 </div>
 
+<p align="center">
+    <img src="Image\Image5.webp" width="700" alt="HLD-Youtube">
+</p>
+
 **Challenges**: Handling the vast number of users and their connections, ensuring efficient and accurate recommendations.
 
 **Market Benefits**:Enhanced user engagement through accurate friend recommendations, increased user activity, and retention.
@@ -179,6 +185,10 @@ When dealing with millions of users, data cannot be stored on a single machine. 
     The Trie data structure is utilized for efficient auto-completion of  searches based on past user inputs. The Trie stores a set of strings representing past searches by users.When a user types in a prefix of their search query, the system provides recommendations to auto-complete the query based on the stored strings in the Trie.For example, if the Trie stores {"abc", "abcd", "aa", "abbbaba"} and the user types in "ab", they should be shown {"abc", "abcd", "abbbaba"}.
 
 </div>
+
+<p align="center">
+    <img src="Image\Image6.webp" width="700" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
 
