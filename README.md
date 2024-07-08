@@ -288,7 +288,7 @@ Facebook's news feed algorithm condenses approximately 1,500 daily potential pos
 </p>
 
 <p align="center">
-    <img src="Image\Image11.webp" width="500" alt="HLD-Youtube">
+    <img src="Image\Image11.webp" width="700" alt="HLD-Youtube">
 </p>
 
 <p>
@@ -321,7 +321,7 @@ Facebook offers a Data Saver feature designed to minimize data consumption while
 
 
 <p align="center">
-    <img src="Image\Image12Final.gif" width="500" alt="HLD-Youtube">
+    <img src="Image\Image12Final.gif" width="300" alt="HLD-Youtube">
 </p>
 
 **Challenges**:Ensuring effective data compression without compromising content quality, managing varying internet speeds and data constraints.
