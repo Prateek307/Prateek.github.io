@@ -286,6 +286,11 @@ For the efficient detection of spam content within posts, comments, and messages
 <p>
 Facebook's news feed algorithm condenses approximately 1,500 daily potential posts into roughly 300 prioritized ones. Factors influencing this selection include how frequently users interact with friends, pages, or public figures, the engagement levels (likes, shares, comments) of individual posts, historical interaction patterns with similar content, and the prevalence of hiding or reporting specific posts. 
 </p>
+
+<p align="center">
+    <img src="Image\Image11.webp" width="500" alt="HLD-Youtube">
+</p>
+
 <p>
 B+ trees are balanced tree structures designed to maintain sorted data efficiently and support rapid access to sorted subsets of data. They strike a balance between depth and breadth, ensuring that operations such as insertion, deletion, and search maintain logarithmic time complexity relative to the number of entries. This makes B+ trees well-suited for scenarios where quick and efficient access to sorted data subsets, crucial for managing and prioritizing content in the news feed, is essential.
 </p>
@@ -313,6 +318,11 @@ B+ trees are balanced tree structures designed to maintain sorted data efficient
 Facebook offers a Data Saver feature designed to minimize data consumption while maintaining efficient application functionality. This feature allows users to run the app using less data by reducing the quality of images and videos displayed. It ensures that users can browse their feed, view content, and interact with posts while conserving data usage, making it particularly beneficial in regions with limited internet access or expensive data plans. Facebook employs Huffman coding to optimize data storage and transmission, especially in scenarios where minimizing data size is critical. Huffman coding is a lossless data compression algorithm that assigns shorter codes to frequently used data patterns and longer codes to less frequent ones, based on their probability of occurrence. This ensures efficient data representation and reduced storage requirements, beneficial for enhancing data transmission speeds and reducing bandwidth usage across Facebook's platform.
 
 </div>
+
+
+<p align="center">
+    <img src="Image\Image12Final.gif" width="500" alt="HLD-Youtube">
+</p>
 
 **Challenges**:Ensuring effective data compression without compromising content quality, managing varying internet speeds and data constraints.
 
