@@ -73,6 +73,7 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Friends Recommendation](#friend-recommend)
 - [Auto Complete Searches](#auto)
 - [Content Monitoring](#monitor)
+- [Viewing Stories](#view)
 - [Data Saver](#data-saver)
 - [Tag Verification](#tag)
 - [Managing Chats & Notifications](#chats-and-notify)
@@ -81,7 +82,6 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Spam Detection](#spam)
 - [Data Center Network Optimization](#optimize)
 - [User Authentication](#authenticate)
-- [Viewing Stories](#view)
 - [Reminders](#reminder)
 - [Notification System](#notify)
 
@@ -197,6 +197,26 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    - **Time Complexity:** O(n + m), where n is the length of the text and m is the length of the pattern.
    - **Space Complexity:** O(1), excluding the space required for storing the input text and pattern.
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RabinKarp.cpp" target="_blank">Trie</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RabinKarp.cpp" target="_blank">Rabin-Karp</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 6 use case -->
+
+<h3 id="view">5. Viewing Stories</h3>
+<div style="text-align: justify;">
+   The deque (double-ended queue) data structure is utilized in Facebook's "Viewing Stories" feature for efficient management and display of user-generated stories. Stories are temporary multimedia posts that users can view and share with their friends. Using a deque allows Facebook to efficiently manage the sequence of stories displayed to users, supporting both forward and backward navigation through the list of stories.
+
+</div>
+
+**Challenges**:Ensuring smooth and responsive navigation between stories, handling dynamic updates as new stories are posted.
+
+**Market Benefits**: Enhanced user engagement with a seamless and intuitive story-viewing experience, encouraging frequent user interaction.
+
+**Design techniques and algorithms:**  
+- **Deque Data Structure:** Efficiently manages the sequence of stories
+   - **Time Complexity:**  O(1) for both front and back operations.
+   - **Space Complexity:** Access: O(1) for accessing elements at both ends.
+
+**View Implementation:** <a href="" target="_blank">Deque</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
