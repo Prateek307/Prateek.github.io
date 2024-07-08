@@ -101,7 +101,7 @@ There are several ways of sorting the friend list, such as by recent interaction
 - **Merge Sort:** Divide-and-conquer technique
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
-View Implementation: [Merge Sort](https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp)
+View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
@@ -121,7 +121,7 @@ Facebook’s database is based on MySQL. It is not feasible for a MySQL database
 - **LSM Tree Storage Engine:** Log-structured storage
    - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
    - **Space Complexity:**Efficient use of storage due to reduced fragmentation
-View Implementation: [MyRocks DB](https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/)
+View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">MyRocks DB</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
