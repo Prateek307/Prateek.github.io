@@ -87,7 +87,7 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 
 <h3 id="friends">1. Sort Friend List</h3>
 <div  style="text-align: justify;">
-Facebook processes millions of user profiles and their associated friends lists daily. Efficiently sorting these friend lists is crucial for enhancing user experience, especially when users search or scroll through their friends. There are several ways of sorting the friend list, such as by recent interactions, least interacted with, and mutual friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
+There are several ways of sorting the friend list, such as by recent interactions, least interacted with, and mutual friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
 </div>
 
 **Challenges**: Handling dynamically changing friends lists, ensuring low latency during sorting operations.
@@ -98,7 +98,7 @@ Facebook processes millions of user profiles and their associated friends lists 
 - **Merge Sort:** Divide-and-conquer technique
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
-View Implementation: [Merge Sort](https://github.com/Prateek.github.io/code/MergeSort.cpp)
+View Implementation: [Merge Sort](https://github.com/Prateek.github.io/Codes/MergeSort.cpp)
 
 
 
