@@ -94,7 +94,7 @@ There are several ways of sorting the friend list, such as by recent interaction
 </div>
 
 <p align="center">
-    <img src="Image\Image1.gif" width="700" alt="HLD-Youtube">
+    <img src="Image\Image1Edit.gif" width="700" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling dynamically changing friends lists, ensuring low latency during sorting operations.
