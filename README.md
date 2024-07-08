@@ -71,7 +71,7 @@ Facebook's approach to scaling its MySQL database involved two major modificatio
 - [Sort Friend List](#friends)
 - [Database Modification](#db-modify)
 - [Friends Recommendation](#friend-recommend)
-- [Auto Complete Hashtag Searches](#auto)
+- [Auto Complete Searches](#auto)
 - [Content Monitoring](#monitor)
 - [Data Saver](#data-saver)
 - [Tag Verification](#tag)
@@ -156,27 +156,28 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
 
 **View Implementation:** 
-- **<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1</a>**
-- **<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2</a>**
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1</a>
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 4 use case -->
 
-<h3 id="optimize">1. Data Center Network Optimization</h3>
-<div  style="text-align: justify;">
-There are several ways of sorting the friend list, such as by recent interactions, least interacted with, and mutual friends. Using the Merge Sort algorithm, which is a divide-and-conquer approach, can significantly improve the efficiency of sorting large friends lists. Merge Sort is particularly suitable for this task due to its predictable time complexity and stable sorting nature, ensuring that the order of equal elements remains unchanged. When a user requests to view their sorted friend list, the system can quickly divide the list into smaller sublists, sort them, and then merge them back together in a sorted manner.
+<h3 id="auto">4. Auto Complete Searches</h3>
+<div style="text-align: justify;">
+    The Trie data structure is utilized for efficient auto-completion of  searches based on past user inputs. The Trie stores a set of strings representing past searches by users.When a user types in a prefix of their search query, the system provides recommendations to auto-complete the query based on the stored strings in the Trie.For example, if the Trie stores {"abc", "abcd", "aa", "abbbaba"} and the user types in "ab", they should be shown {"abc", "abcd", "abbbaba"}.
+
 </div>
 
-**Challenges**: Handling dynamically changing friends lists, ensuring low latency during sorting operations.
+**Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
 
-**Market Benefits**: Improved user experience with faster and more responsive friend list management.
+**Market Benefits**:  Enhanced user experience with quicker and more accurate hashtag suggestions, improving user engagement.
 
 **Design techniques and algorithms:**  
-- **Merge Sort:** Divide-and-conquer technique
+- **Trie Data Structure:** Efficient for prefix-based searches
    - **Time Complexity:** O(n log n), where n is the number of friends in the list.
    - **Space Complexity:** O(n), for the temporary arrays used during the merging process.
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/MergeSort.cpp" target="_blank">MyRocks DB</a>
+**View Implementation:** <a href="" target="_blank">MyRocks DB</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 5 use case -->
