@@ -158,7 +158,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image5.webp" width="300" alt="HLD-Youtube">
+    <img src="Image\Image5.webp" width="200" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling the vast number of users and their connections, ensuring efficient and accurate recommendations.
@@ -187,7 +187,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 </div>
 
 <p align="center">
-    <img src="Image\Image6.gif" width="700" alt="HLD-Youtube">
+    <img src="Image\Image6.gif" width="200" alt="HLD-Youtube">
 </p>
 
 **Challenges**: Handling dynamic user queries efficiently, ensuring fast response times during auto-completion.
@@ -209,6 +209,10 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    Facebook's content moderation strategy relies heavily on community flagging and human review processes to enforce community standards, including the monitoring of Facebook Live broadcasts. When content is flagged, a global team proficient in over 40 languages reviews it promptly. The Rabin-Karp string matching algorithm can efficiently detect specific patterns or content violations within posts, comments, and live videos. This algorithm enhances the team's ability to quickly identify and respond to flagged content, contributing to a safer and compliant platform environment.
 
 </div>
+
+<p align="center">
+    <img src="Image\Image7.webp" width="200" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Ensuring real-time detection of prohibited content, handling large volumes of data efficiently.
 
