@@ -312,7 +312,7 @@ There are several chats and notifications for a user in Facebook, where a user c
 
 <!-- 11 use case -->
 
-<h3 id="tag">11. Tagging Verification</h3>
+<h3 id="tag">11. Tag Verification</h3>
 <div style="text-align: justify;">
 Tagging is a feature in Facebook where users can tag other users in posts, photos, or comments. Once a user tags another, the tag needs to be authenticated and verified based on the privacy settings of the tagged user. This entire process of verification and authentication can be efficiently managed using Depth-First Search (DFS), a fundamental algorithm in graph theory and data structures. DFS is utilized by Facebook to traverse through the network of tagged users and their privacy settings. It starts from the tagged user and explores all connected users recursively, ensuring that the tag reaches only those users whose privacy settings permit such tagging. This approach helps maintain user privacy and ensures that tags are visible and actionable only to intended recipients. By employing DFS, Facebook efficiently verifies the authenticity of tags and adheres to privacy preferences set by its users.
 </div>
@@ -434,3 +434,7 @@ Facebook's notification system is important in keeping users informed about inte
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+
+## Business Use Cases
+[1] Facebook social network July 07, 2024 [https://www.britannica.com/money/Facebook](https://www.britannica.com/money/Facebook){:target="_blank"} <br><br>
+[2] Facebook Explained: Origins, Why People Like It, and Key Features  May 15, 2024 [https://www.lifewire.com/what-is-facebook-3486391](https://www.lifewire.com/what-is-facebook-3486391){:target="_blank"} <br><br>
