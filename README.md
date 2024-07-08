@@ -156,7 +156,7 @@ When dealing with millions of users, data cannot be stored on a single machine. 
    - **Space Complexity:** O(b^(d/2)), for storing nodes in the queues of both searches.
 
 **View Implementation:** 
-<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1</a>
+<a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase1.java" target="_blank">Case 1</a>,
 <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/RecommendCase2.java" target="_blank">Case 2</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
@@ -181,3 +181,22 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 5 use case -->
+
+<h3 id="monitor">5. Content Monitoring</h3>
+<div style="text-align: justify;">
+   Facebook's content moderation strategy relies heavily on community flagging and human review processes to enforce community standards, including the monitoring of Facebook Live broadcasts. When content is flagged, a global team proficient in over 40 languages reviews it promptly. The Rabin-Karp string matching algorithm can efficiently detect specific patterns or content violations within posts, comments, and live videos. This algorithm enhances the team's ability to quickly identify and respond to flagged content, contributing to a safer and compliant platform environment.
+
+</div>
+
+**Challenges**: Ensuring real-time detection of prohibited content, handling large volumes of data efficiently.
+
+**Market Benefits**:  Enhanced platform safety and compliance with community guidelines, fostering a trusted user environment.
+
+**Design techniques and algorithms:**  
+- **Rabin-Karp Algorithm:** String matching technique based on hashing
+   - **Time Complexity:** O(n + m), where n is the length of the text and m is the length of the pattern.
+   - **Space Complexity:** O(1), excluding the space required for storing the input text and pattern.
+
+**View Implementation:** <a href="" target="_blank">Trie</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
