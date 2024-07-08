@@ -271,20 +271,20 @@ B+ trees are balanced tree structures designed to maintain sorted data efficient
 
 <h3 id="data-saver">9. Data Saver</h3>
 <div style="text-align: justify;">
-
+Facebook offers a Data Saver feature designed to minimize data consumption while maintaining efficient application functionality. This feature allows users to run the app using less data by reducing the quality of images and videos displayed. It ensures that users can browse their feed, view content, and interact with posts while conserving data usage, making it particularly beneficial in regions with limited internet access or expensive data plans. Facebook employs Huffman coding to optimize data storage and transmission, especially in scenarios where minimizing data size is critical. Huffman coding is a lossless data compression algorithm that assigns shorter codes to frequently used data patterns and longer codes to less frequent ones, based on their probability of occurrence. This ensures efficient data representation and reduced storage requirements, beneficial for enhancing data transmission speeds and reducing bandwidth usage across Facebook's platform.
 
 </div>
 
-**Challenges**:Ensuring smooth and responsive navigation between stories, handling dynamic updates as new stories are posted.
+**Challenges**:Ensuring effective data compression without compromising content quality, managing varying internet speeds and data constraints.
 
-**Market Benefits**: Enhanced user engagement with a seamless and intuitive story-viewing experience, encouraging frequent user interaction.
+**Market Benefits**:Improved user experience with reduced data costs, enhanced accessibility in low-bandwidth regions, and efficient media content delivery.
 
 **Design techniques and algorithms:**  
-- **Deque Data Structure:** Efficiently manages the sequence of stories
-   - **Time Complexity:**  O(1) for both front and back operations.
-   - **Space Complexity:** Access: O(1) for accessing elements at both ends.
+- **Huffman Coding:**  Lossless data compression technique
+   - **Time Complexity:**   Assigns shorter codes to frequently used data patterns and longer codes to less frequent ones based on probability.
+   - **Space Complexity:** Utilizes Huffman coding to compress media files and reduce data consumption while maintaining acceptable quality standards.
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Deque.cpp" target="_blank">Deque</a>
+**View Implementation:** <a href="" target="_blank">Huffman Coding</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -293,19 +293,18 @@ B+ trees are balanced tree structures designed to maintain sorted data efficient
 
 <h3 id="chats-and-notify">10. Managing Chats & Notifications</h3>
 <div style="text-align: justify;">
-
-
+There are several chats and notifications for a user in Facebook, where a user can view each chat and notification and perform various actions such as deleting a chat. Facebook makes use of a doubly linked list data structure to efficiently manage these interactions. This approach allows users to navigate through their chat history and notifications chronologically, ensuring quick access and manipulation of individual messages and notifications. Each node in the doubly linked list contains details such as message content, sender information, timestamps, and notification specifics. By utilizing bidirectional traversal and dynamic node management, Facebook ensures that users can interact seamlessly with their chats and notifications, performing actions like deletion or archiving with optimal efficiency and responsiveness.
 </div>
 
-**Challenges**:Ensuring smooth and responsive navigation between stories, handling dynamic updates as new stories are posted.
+**Challenges**: Ensuring real-time updates across multiple users, managing memory efficiently for dynamic data changes.
 
-**Market Benefits**: Enhanced user engagement with a seamless and intuitive story-viewing experience, encouraging frequent user interaction.
+**Market Benefits**:  Enhanced user experience with fast access to chat history and notifications, improved responsiveness in message management and notification handling.
 
 **Design techniques and algorithms:**  
-- **Deque Data Structure:** Efficiently manages the sequence of stories
-   - **Time Complexity:**  O(1) for both front and back operations.
-   - **Space Complexity:** Access: O(1) for accessing elements at both ends.
+- **Doubly Linked List:** Supports bidirectional traversal
+   - **Time Complexity:**   O(1) time complexity for operations, facilitating efficient updates.
+   - **Space Complexity:** Uses pointers to maintain connections between nodes, optimizing space utilization.
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Deque.cpp" target="_blank">Deque</a>
+**View Implementation:** <a href="" target="_blank">Doubly Linked List</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
