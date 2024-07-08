@@ -240,29 +240,34 @@ For the efficient detection of spam content within posts, comments, and messages
 <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Trie.cpp" target="_blank">Tries</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
-
 <!-- 8 use case -->
 
 <h3 id="news-filter">8. News Feed Sorting & Filtering</h3>
 <div style="text-align: justify;">
-
-
+<p>
+Facebook's news feed algorithm condenses approximately 1,500 daily potential posts into roughly 300 prioritized ones. Factors influencing this selection include how frequently users interact with friends, pages, or public figures, the engagement levels (likes, shares, comments) of individual posts, historical interaction patterns with similar content, and the prevalence of hiding or reporting specific posts. 
+</p>
+<p>
+B+ trees are balanced tree structures designed to maintain sorted data efficiently and support rapid access to sorted subsets of data. They strike a balance between depth and breadth, ensuring that operations such as insertion, deletion, and search maintain logarithmic time complexity relative to the number of entries. This makes B+ trees well-suited for scenarios where quick and efficient access to sorted data subsets, crucial for managing and prioritizing content in the news feed, is essential.
+</p>
 </div>
 
-**Challenges**:Ensuring smooth and responsive navigation between stories, handling dynamic updates as new stories are posted.
+**Challenges**:Managing diverse content types and user preferences dynamically, ensuring timely updates and personalized feeds.
 
-**Market Benefits**: Enhanced user engagement with a seamless and intuitive story-viewing experience, encouraging frequent user interaction.
+**Market Benefits**:  Improved user engagement through personalized and relevant content delivery, enhancing overall user satisfaction and interaction.
 
 **Design techniques and algorithms:**  
-- **Deque Data Structure:** Efficiently manages the sequence of stories
+- **B+ Trees:** Provides efficient indexing and sorting capabilities for news feed items
    - **Time Complexity:**  O(1) for both front and back operations.
    - **Space Complexity:** Access: O(1) for accessing elements at both ends.
 
-**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/Deque.cpp" target="_blank">Deque</a>
+**View Implementation:** <a href="" target="_blank">B+ Trees</a>
+
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
 <!-- 9 use case -->
+
 
 <h3 id="data-saver">9. Data Saver</h3>
 <div style="text-align: justify;">
