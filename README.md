@@ -106,7 +106,6 @@ View Implementation: <a href="https://github.com/Prateek307/Prateek.github.io/bl
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 2 use case -->
 
-
 <h3 id="db-modify">2. Database Modification</h3>
 <div style="text-align: justify;">
 Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
@@ -121,7 +120,28 @@ Facebook’s database is based on MySQL. It is not feasible for a MySQL database
 - **LSM Tree Storage Engine:** Log-structured storage
    - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
    - **Space Complexity:**Efficient use of storage due to reduced fragmentation
-View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">MyRocks DB</a>
+View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">Merge Sort
+</a>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 3 use case -->
+
+<h3 id="friend-recommend">3. Friends Recommendation</h3>
+<div style="text-align: justify;">
+Facebook’s database is based on MySQL. It is not feasible for a MySQL database to serve tens of petabytes of data efficiently. To address this, One notable optimization is the implementation of the LSM (Log-Structured Merge) tree storage engine. Originally, Facebook used the InnoDB engine, which employs B+ trees. However, B+ trees can lead to index fragmentation, resulting in wasted storage space that neither holds useful data nor can be used for new data. This issue became more pronounced as Facebook transitioned from HDD to Flash or SSD, where wasted space is more expensive. To resolve this, Facebook developed a new storage engine, MyRocks DB, based on the LSM tree. This optimization reduced storage usage by 50% and decreased database latency.
+
+</div>
+
+**Challenges**:  Managing massive data volumes efficiently, minimizing index fragmentation, and optimizing for SSD storage.
+
+**Market Benefits**: Reduced storage costs, improved database performance, and enhanced scalability.
+
+**Design techniques and algorithms:**  
+- **LSM Tree Storage Engine:** Log-structured storage
+   - **Time Complexity:**Varies with operations; generally O(log n) for reads and writes
+   - **Space Complexity:**Efficient use of storage due to reduced fragmentation
+View Implementation: <a href="https://engineering.fb.com/2016/08/31/core-infra/myrocks-a-space-and-write-optimized-mysql-database/" target="_blank">MyRocks DB
+</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
