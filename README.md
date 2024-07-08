@@ -261,7 +261,7 @@ B+ trees are balanced tree structures designed to maintain sorted data efficient
    - **Time Complexity:**  O(1) for both front and back operations.
    - **Space Complexity:** Access: O(1) for accessing elements at both ends.
 
-**View Implementation:** <a href="" target="_blank">B+ Trees</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/BPlusTrees.cpp" target="_blank">B+ Trees</a>
 
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
@@ -284,7 +284,7 @@ Facebook offers a Data Saver feature designed to minimize data consumption while
    - **Time Complexity:**   Assigns shorter codes to frequently used data patterns and longer codes to less frequent ones based on probability.
    - **Space Complexity:** Utilizes Huffman coding to compress media files and reduce data consumption while maintaining acceptable quality standards.
 
-**View Implementation:** <a href="" target="_blank">Huffman Coding</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/HuffmanCoding.cpp" target="_blank">Huffman Coding</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -305,6 +305,6 @@ There are several chats and notifications for a user in Facebook, where a user c
    - **Time Complexity:**   O(1) time complexity for operations, facilitating efficient updates.
    - **Space Complexity:** Uses pointers to maintain connections between nodes, optimizing space utilization.
 
-**View Implementation:** <a href="" target="_blank">Doubly Linked List</a>
+**View Implementation:** <a href="https://github.com/Prateek307/Prateek.github.io/blob/main/Codes/DoublyLinkedList.cpp" target="_blank">Doubly Linked List</a>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------->
