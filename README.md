@@ -234,6 +234,10 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 
 </div>
 
+<p align="center">
+    <img src="Image\Image8.png" width="500" alt="HLD-Youtube">
+</p>
+
 **Challenges**:Ensuring smooth and responsive navigation between stories, handling dynamic updates as new stories are posted.
 
 **Market Benefits**: Enhanced user engagement with a seamless and intuitive story-viewing experience, encouraging frequent user interaction.
@@ -249,9 +253,18 @@ When dealing with millions of users, data cannot be stored on a single machine. 
 <!-- 7 use case -->
 
 <h3 id="spam">7. Spam Detection</h3>
+
+<p align="center">
+    <img src="Image\Image9.gif" width="500" alt="HLD-Youtube">
+</p>
+
 <div style="text-align: justify;">
 For the efficient detection of spam content within posts, comments, and messages on Facebook. Hashmap and Tries can be utilized . Hashmap enables quick lookup and categorization of flagged patterns, while tries facilitate rapid matching against stored spam keywords and phrases.
 </div>
+
+<p align="center">
+    <img src="Image\Image10.gif" width="500" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Ensuring real-time detection of evolving spam tactics, maintaining low latency during content evaluation.
 
