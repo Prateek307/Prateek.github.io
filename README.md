@@ -421,6 +421,11 @@ Analytics and metrics play a crucial role in Facebook's platform, providing insi
 Data Center Network Optimization at Facebook involves ensuring efficient routing of packets and minimizing latency across a vast network infrastructure. Facebook's data centers are interconnected through a complex network topology designed to handle massive amounts of data and user requests. The A* algorithm proves invaluable in achieving these goals by optimizing routing decisions based on various criteria such as shortest path, network congestion, and real-time traffic conditions. It navigates this intricate network topology by evaluating potential paths using a combination of a heuristic function and actual network metrics, enabling A* to efficiently select optimal routes that minimize latency and maximize throughput. A* operates by expanding the least costly path first, balancing between the cost of the path so far and the estimated cost to reach the destination. This approach ensures that Facebook's network can dynamically adapt to varying traffic patterns and network failures.
 </div>
 
+<p align="center">
+    <img src="Image\Image17.gif" width="500" alt="HLD-Youtube">
+</p>
+
+
 **Challenges**: Ensuring secure storage and retrieval of user credentials, preventing unauthorized access through robust hashing and encryption methods, and managing scalability as the user base grows.
 
 **Market Benefits**: Enhanced security measures against unauthorized access, improved user experience with faster login processes, and scalable infrastructure to accommodate increasing user demands.
@@ -439,6 +444,10 @@ Data Center Network Optimization at Facebook involves ensuring efficient routing
 <div style="text-align: justify;">
 User authentication at Facebook relies on hash maps to securely store and manage user credentials. Each user's account details, including usernames, email addresses, and hashed passwords, are stored as key-value pairs in a hash map. This data structure allows for rapid retrieval and validation of user credentials during login attempts. Hash maps ensure that user authentication operations, such as checking the validity of login credentials and retrieving user information, are performed with optimal time complexity. Additionally, hash maps support efficient management of user sessions and permissions, enhancing the overall security and user experience on the platform.
 </div>
+
+<p align="center">
+    <img src="Image\Image9.gif" width="500" alt="HLD-Youtube">
+</p>
 
 **Challenges**: Ensuring secure storage and retrieval of user credentials, preventing unauthorized access through robust hashing and encryption methods, and managing scalability as the user base grows.
 
@@ -459,6 +468,10 @@ User authentication at Facebook relies on hash maps to securely store and manage
 There are several reminders provided in Facebook, such as birthday reminders, event reminders, and more. Facebook utilizes Binary Search Trees (BST) to efficiently manage these reminders for users. Each reminder type, whether it's a birthday or an event, is stored as a node in the BST, sorted based on its scheduled time. This structured approach allows for quick insertion, deletion, and retrieval operations, ensuring that users can easily manage their reminders with minimal computational overhead. The BST structure facilitates efficient searching for upcoming reminders and supports functionalities such as updating reminder details or marking reminders as completed. By leveraging BST, Facebook optimizes the user experience with reliable and timely reminder notifications.
 </div>
 
+<p align="center">
+    <img src="Image\Image18.webp" width="500" alt="HLD-Youtube">
+</p>
+
 **Challenges**:  Handling concurrent user acc   ess to reminder operations, ensuring efficient BST balancing to maintain optimal performance, and integrating reminder functionalities across different Facebook platforms.
 
 **Market Benefits**:   Improved user productivity with organized reminders, enhanced reliability in reminder notifications, and scalable infrastructure to support growing user demands.
@@ -474,9 +487,18 @@ There are several reminders provided in Facebook, such as birthday reminders, ev
 <!-- 16 use case -->
 
 <h3 id="notify">16. Notification System</h3>
+
+<p align="center">
+    <img src="Image\Image19.gif" width="500" alt="HLD-Youtube">
+</p>
+
 <div style="text-align: justify;">
 Facebook's notification system is important in keeping users informed about interactions, updates, and activities within their network. It uses advanced data structures to ensure timely delivery and management of notifications across its platform. Notifications can range from likes on posts to friend requests, event invitations, and more, each requiring efficient handling to maintain a responsive user experience. Facebook employs a combination of data structures, including priority queues and hash tables, to organize and prioritize notifications based on relevance and user interaction patterns. Priority queues are particularly useful for ordering notifications by urgency or time sensitivity, ensuring that critical updates are promptly delivered. Hash tables optimize retrieval times for specific user notifications, allowing quick access and updates as users interact with their notifications.
 </div>
+
+<p align="center">
+    <img src="Image\Image20.gif" width="500" alt="HLD-Youtube">
+</p>
 
 **Challenges**:Managing notification delivery across diverse user bases and interaction patterns, optimizing data structure performance for real-time updates, and ensuring scalability as user engagement grows.
 
